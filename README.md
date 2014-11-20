@@ -7,4 +7,4 @@ Build the container::
 
 Run the container::
 
-  sudo docker run -i -t -v /home/iryna/sites:/code --rm --name=rails-start rails
+  sudo docker run -i -t -v <path-on-host-machine>:/code --rm --name=rails-playground rails
